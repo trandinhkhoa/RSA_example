@@ -10,8 +10,10 @@ python rsa.py -d
 
 ### NOTE:
 *Limitation*:
+
     - Currently the program only work for small N (20 bits). 
     - Small size of input (3 characters) since N is small.
+
 To do the exponentiation in encryption mode, the input text message to be encrypt will be transformed into numerical representation then this numeric value will be used as inputencryption. 
 After decryption, the same numerical representation will be recovered
 
