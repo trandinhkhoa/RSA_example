@@ -15,7 +15,7 @@ python rsa.py -d
 To do the exponentiation in encryption mode, the input text message to be encrypt will be transformed into numerical representation then this numeric value will be used as inputencryption. 
 After decryption, the same numerical representation will be recovered
 
-*Example inut*
+*Example input*
 ```
 Enter prime p = 1009
 Enter prime q = 1017
@@ -24,8 +24,7 @@ Public key (e, N) =  65537 1026153
 -------Enter your message = HEY
 726989
 Numerical representation of your message =  726989
--------Encrypting------------------
-Cipher text =  443468
+-------Encrypting------------------ Cipher text =  443468
 -------Decrypting------------------
 De-Cipher text =  726989
 ```
