@@ -84,6 +84,7 @@ def encrypt(msg, e, N):
     for i in msg:
         temp = temp + str(ord(i))
     msg_Num = int(temp)
+    print(msg_Num)
     print("Numerical representation of your message = ", msg_Num % N)
 
     print("-------Encrypting------------------")
